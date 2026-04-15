@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 /** Backend בפרודקשן (Vercel) — ניתן לעקוף עם VITE_API_URL */
-const PRODUCTION_API_BASE = 'https://backend-dowe.vercel.app/api'
+const PRODUCTION_API_BASE = 'https://backend-ste-dishly.vercel.app/api'
 
 // Development: local backend. Production: Vercel backend (override with VITE_API_URL)
 const API_URL =
