@@ -12,5 +12,5 @@ export const BRAND = {
   name: 'Dishly',
   tagline: 'אוכל ביתי אמיתי עד הדלת',
   color: '#3985b9',
-  logo: '/Logo.png',
+  logo: '/logo.png',
 } as const
