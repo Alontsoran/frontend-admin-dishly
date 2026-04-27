@@ -6,7 +6,7 @@ const PRODUCTION_API_BASE = 'https://backend-ste-dishly.vercel.app/api'
 // Development: local backend. Production: Vercel backend (override with VITE_API_URL)
 const API_URL =
   import.meta.env.VITE_API_URL ||
-  (import.meta.env.PROD ? PRODUCTION_API_BASE : 'http://localhost:5000/api')
+  (import.meta.env.PROD ? PRODUCTION_API_BASE : 'http://localhost:5100/api')
 
 export const api = axios.create({
   baseURL: API_URL,
